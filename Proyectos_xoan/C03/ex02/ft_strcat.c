@@ -15,7 +15,7 @@ char	*ft_strcat(char *dest, char *src)
 	int	dest_len;
 	int	i;
 
-	if (dest == NULL || src == NULL)
+	if (dest == '\0' || src == '\0')
 	{
 		return (dest);
 	}
